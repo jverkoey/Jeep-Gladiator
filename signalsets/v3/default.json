@@ -1,4 +1,19 @@
 { "commands": [
-
+{ "hdr": "7DA", "dbg": true, "cmd": {"22": "A020"}, "freq": 1,
+  "signals": [
+    {"id": "GLADIATOR_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 92, "mul": 92.46, "div": 255, "unit": "psi" }, "name": "Front left tire pressure"}
+  ]},
+{ "hdr": "7DA", "dbg": true, "cmd": {"22": "A021"}, "freq": 1,
+  "signals": [
+    {"id": "GLADIATOR_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 92, "mul": 92.46, "div": 255, "unit": "psi" }, "name": "Front right tire pressure"}
+  ]},
+{ "hdr": "7DA", "dbg": true, "cmd": {"22": "A022"}, "freq": 1,
+  "signals": [
+    {"id": "GLADIATOR_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 92, "mul": 92.46, "div": 255, "unit": "psi" }, "name": "Rear left tire pressure"}
+  ]},
+{ "hdr": "7DA", "dbg": true, "cmd": {"22": "A023"}, "freq": 1,
+  "signals": [
+    {"id": "GLADIATOR_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 92, "mul": 92.46, "div": 255, "unit": "psi" }, "name": "Rear right tire pressure"}
+  ]}
 ]
 }
